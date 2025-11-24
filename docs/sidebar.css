@@ -1,0 +1,72 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+/* 侧边栏字体大小调整 */
+.sidebar {
+    font-size: 16px !important;
+    padding: 20px 15px !important;
+}
+
+/* 应用名称/标题 */
+.sidebar .app-name {
+    font-size: 22px !important;
+    font-weight: 700 !important;
+    margin-bottom: 15px !important;
+}
+
+/* 所有侧边栏链接 */
+.sidebar ul li a {
+    font-size: 18px !important;
+    line-height: 1.8 !important;
+    padding: 8px 15px !important;
+    border-radius: 4px !important;
+}
+
+
+/* 二级菜单项 */
+.sidebar ul li ul li a {
+    font-size: 16px !important;
+}
+
+/* 三级菜单项 */
+.sidebar ul li ul li ul li a {
+    font-size: 14px !important;
+}
+
+/* 当前激活的菜单项 */
+.sidebar ul li.active > a {
+    background-color: #9dceee !important;
+    color: white !important;
+    font-weight: 600 !important;
+}
+
+/* 链接悬停效果 */
+.sidebar ul li a:hover {
+    background-color: #e7edf2 !important;
+    color: #8fbfdf !important;
+}
+
+/* 封面页样式 */
+.cover-main {
+    background: transparent !important;
+    color: rgb(255, 255, 255);
+    text-shadow: 0 2px 4px rgba(0,0,0,0.3);
+}
+
+/* 导航栏全局显示 */
+.app-nav {
+    display: block !important;
+}
+
+/* 侧边栏固定宽度 */
+.sidebar {
+    width: 250px !important;
+}
+
+
